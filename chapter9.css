@@ -4,44 +4,34 @@
 	margin: 0;
 	box-sizing: border-box;
 	color:#6c6b6b;
-}
-section{
-	margin: 0 auto;
-	width: 960px;
+	clear: both;
+	width: 90%;
 }
 .box-text{
 	margin-top:50px;
-	width: 30%;
-	height: 300px;
+	width: 90%;
 	padding: 10px;
-	float:left;
 	border:1px solid #ecebeb;
 	position: relative;
-}
-.box-text:nth-child(2){
-	margin-right:5%;
-	margin-left: 5%;
+	float:none;
 }
 .topic1{
 	background-image: url(img/flow01.png);
 	background-size: cover;
 	background-position: bottom;
 	display: block;
-	height: 140px;
 }
 .topic2{
 	background-image: url(img/flow02.png);
 	background-size: cover;
 	background-position: bottom;
 	display: block;
-	height: 140px;
 }
 .topic3{
 	background-image: url(img/flow03.png);
 	background-size: cover;
 	background-position: bottom;
 	display: block;
-	height: 140px;
 }
 h3{
 	margin-top: 10px;
@@ -56,22 +46,4 @@ p{
 	left: 0;
 	background-color: orange;
 	color:#FFF;
-}
-@media screen and (max-width:768px) {
-	*{
-		margin: 0 auto;
-		color:#6c6b6b;
-	}
-	section{
-		margin: 0 auto;
-		width: 90%;
-	}
-	.box-text{
-		border:1px solid #ecebeb;
-		position: relative;
-		float: none;
-		margin-right:5%;
-		margin-left: 5%;
-		width:auto;
-	}
 }
