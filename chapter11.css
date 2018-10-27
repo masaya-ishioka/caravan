@@ -3,94 +3,63 @@
 	padding: 0;
 	text-align: center;
 }
-p{
-	font-size: 20px
-}
-h2{
-	font-size: 32px;
-	padding-top: 90px;
-	padding-bottom: 8px;
-	position: relative;
-    display: inline-block;
-    margin-bottom: 1em;
-}
-h2:before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -8px;
-  display: inline-block;
-  width: 70px;
-  height: 3px;
-  transform: translateX(-50%);
-  background-color: #ec715f;
-}
 body{
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
-
 .clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
 }
 
-
 .logo{
-	height: 70px;
+	width: 100%;
+	height: 50px;
 	background-color: #ec715f;
 	color:#fafafa;
 }
-.fas{
-	display: none;
-}
 .logo-item{
-	width: 1024px;
+	width: 100%;
 	margin: auto;
+}
+.fas{
+	display: inline-block;
+	float: right;
+	font-size: 40px;
+	padding: 3px 8px 3px 0;
 }
 .logo span{
 	float: left;
 }
 .logo img{
-	height: 70px;
+	height: 50px;
 }
 .logo ul{
-	height: 70px;
-	float:right;
-
+	display: none;
 }
-.logo li{
-	display: inline-block;
-	margin: 25px 30px;
-}
-.logo a{
-	color:#fafafa;
-	font-size: 16px;
-	text-decoration: none;
-}
-
 
 .main-img{
 	height: 650px;
-	width: 100%;
-	background-image: url(img/mv.png);
+	background-image: url(img/code.png);
 	background-size: cover;
 	background-position: center;
 	color:#fafafa;
 }
 .main-img h1{
-	font-size: 64px;
+	font-size: 40px;
 	padding-top: 200px;
 	padding-bottom: 10px;
-	}
-
-
+}
+.main-img p{
+	font-size: 18px;
+}
 .portfolio{
 	background-color: #eceff1;
 	padding-bottom: 90px;
 }
 .portfolio-item{
-	width: 920px;
+	width: 100%;
 	color: #000;
 	margin: 0 auto;
 }
@@ -104,38 +73,46 @@ body{
 	height: 250px;
 	background-size: cover;
 	background-position: center;
-	float: left;
 	padding:0;
+	float: none;
 }
 .port-img p:nth-child(1){
 	background-image: url(img/sketch.jpg);
-	margin-right: 10px;
+	display: none;
+	width: 0;
+	height: 0;
 }
 .port-img p:nth-child(2){
 	background-image: url(img/websuku.png);
-	margin-right: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 .port-img p:nth-child(3){
 	background-image: url(img/write.jpg);
+	display: none;
+	width: 0;
+	height: 0;
 }
 .port-img p:nth-child(4){
 	background-image: url(img/webcamp.png);
-	margin-right: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 .port-img p:nth-child(5){
 	background-image: url(img/talk.jpg);
-	margin-right: 10px;
+	display: none;
+	width: 0;
+	height: 0;
 }
 .port-img p:nth-child(6){
 	background-image: url(img/webcamp-mother.png);
-}
-.port-img p:nth-child(-n+3){
+	margin: 0 auto;
 	margin-bottom: 10px;
 }
 
 
 .feature{
-	width: 980px;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 90px;
 }
@@ -143,10 +120,11 @@ body{
 	padding-top: 30px;
 	width: 320px;
 	height: auto;
-	float: left;
+	float: none;
+	margin: 0 auto;
 }
 .feature-box p{
-	text-align: left;
+	text-align: none;
 	font-size: 16px;
 }
 
@@ -155,14 +133,14 @@ body{
 	font-size: 60px;
 }
 .feature-box2{
-	margin: 0 10px;
+	margin: 0 auto;
 	padding-top: 30px;
 	width: 320px;
 	height: auto;
-	float: left;
+	float: none;
 }
 .feature-box2 p{
-	text-align: left;
+	text-align: none;
 	font-size: 16px;
 }
 
@@ -176,15 +154,15 @@ body{
 	padding-bottom: 90px;
 }
 .profile-body{
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 }
 .profile-body p{
 	font-size: 16px;
 }
 .profile-img{
-	width: 512px;
-	float: left;
+	width: 100%;
+	float: none;
 	padding-top: 30px;
 }
 .profile-img img{
@@ -194,23 +172,23 @@ body{
 	border-radius: 50%;
 }
 .profile-text{
-	width: 512px;
-	float: left;
+	width: 100%;
+	float: none;
 	padding-top: 30px;
 }
 .profile-text h3{
 	font-size: 20px;
-	text-align: left;
+	text-align: center;
 }
 .profile-text p{
-	text-align: left;
 	padding-top: 5px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 
 .content{
-	width: 800px;
+	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 90px;
 }
@@ -222,33 +200,34 @@ body{
 
 }
 .emailtel{
-	width: 400px;
-	float: left;
+	width: 100%;
+	float: none;
 	margin: auto;
+	text-align: center;
 }
 .emailtel h3{
-	text-align: left;
-	padding-left: 150px;
+	padding-left: 0px;
+	text-align: center;
 }
 .emailtel p{
 	padding-top: 5px;
 	padding-bottom: 20px;
-	padding-left: 150px;
-	text-align: left;
+	padding-left: 0px;
+	text-align: center;
 }
 .fabcon{
-	width: 400px;
+	width: 100%;
 	float: left;
 	position: relative;
 }
 .fabcon h3{
-	text-align: left;
-	padding-left: 100px;
+	padding-left: 0px;
+	text-align: center;
 }
 .fabcon .fab{
 	font-size: 50px;
 	display: inline-block;
-	padding: 5px 20px 0 0;
+	padding: 5px 8px 0 8px;
 	background-attachment: fixed;
 }
 .footer{
@@ -262,6 +241,14 @@ body{
 	font-size: 16px;
 	padding-top: 20px;
 }
+
+
+
+
+
+
+
+
 
 
 
